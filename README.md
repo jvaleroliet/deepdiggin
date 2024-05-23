@@ -1,6 +1,6 @@
 <p align="center">
   <picture>
-    <img alt="Hugging Face Transformers Library" src="https://jvaleroliet.github.io/images/deepdiggin.png" width="250" style="max-width: 100%;">
+    <img alt="deepdiggin" src="https://jvaleroliet.github.io/images/deepdiggin-large.png" style="max-width: 100%;">
   </picture>
 </p>
 
