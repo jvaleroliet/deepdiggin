@@ -1,2 +1,7 @@
 # deepdiggin
-A Python library for classifying vinyl record condition using deep learning models. 
+
+![deepdiggin](https://jvaleroliet.github.io/images/deepdiggin.png)
+
+
+A Python library for classifying vinyl records based on Goldmine Condition based on deep learning.
+
