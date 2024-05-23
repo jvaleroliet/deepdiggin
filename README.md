@@ -25,7 +25,7 @@ Future features:
 
 To install, run the following command in your terminal:
 
-`pip install git+https://github.com/jvalero/deepdiggin.git@main`
+`pip install git+https://github.com/jvaleroliet/deepdiggin.git@main`
 
 ## Basic Usage
 
