@@ -30,9 +30,9 @@ To install, run the following command in your terminal:
 ## Basic Usage
 
 ```python
-from  deepdiggin import condition_from_audio
+from  deepdiggin import predict
 
-condition = condition_from_audio('path/to/audio')
+condition = predict.condition_from_audio('path/to/audio')
 
 print(condition)
 ```
