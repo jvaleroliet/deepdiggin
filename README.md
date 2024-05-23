@@ -16,6 +16,7 @@ The package is constructed with my finetuned version of [facebook/wav2vec2-base]
 
 Future features:
 
+- Improve model accuracy.
 - Obtain visual grading condition from a photo of the vinyl.
 - Obtain visual grading condition of the cover from a photo of it.
 
