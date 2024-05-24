@@ -22,6 +22,7 @@ Future features:
 - Process entire folders creating a dataframe with paths and conditions.
 - Find out wherever a vinyl is scratched or not.
 - Determine the genre of the vinyl.
+- Identification of vinyl from photo.
 
 ## Installation
 
