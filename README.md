@@ -13,6 +13,7 @@ The package is constructed with my finetuned version of [facebook/wav2vec2-base]
 ### Features
 
 - Obtain grading condition from an audio clip of the vinyl.
+- Find out wherever a vinyl is scratched or not.
 
 Future features:
 
@@ -20,7 +21,6 @@ Future features:
 - Obtain visual grading condition from a photo of the vinyl.
 - Obtain visual grading condition of the cover from a photo of it.
 - Process entire folders creating a dataframe with paths and conditions.
-- Find out wherever a vinyl is scratched or not.
 - Determine the genre of the vinyl.
 - Identification of vinyl from photo.
 - Get value of the record based on discogs price.
@@ -39,6 +39,10 @@ from  deepdiggin import predict
 condition = predict.condition_from_audio('path/to/audio')
 
 print(condition)
+
+scratch_test = predict.scrath_detection('path/to/audio')
+
+print(scratch_test)
 ```
 
 ## Under Construction
