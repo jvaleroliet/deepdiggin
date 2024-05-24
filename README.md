@@ -23,6 +23,7 @@ Future features:
 - Find out wherever a vinyl is scratched or not.
 - Determine the genre of the vinyl.
 - Identification of vinyl from photo.
+- Get value of the record based on discogs price.
 
 ## Installation
 
