@@ -20,6 +20,8 @@ Future features:
 - Obtain visual grading condition from a photo of the vinyl.
 - Obtain visual grading condition of the cover from a photo of it.
 - Process entire folders creating a dataframe with paths and conditions.
+- Find out wherever a vinyl is scratched or not.
+- Determine the genre of the vinyl.
 
 ## Installation
 
