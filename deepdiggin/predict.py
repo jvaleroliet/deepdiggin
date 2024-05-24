@@ -38,6 +38,7 @@ def scrath_detection(audio_path, kind = "deep"):
         result = bool(predicted_condition)
 
     elif kind == "SVG":
+        result = False
         model_linear = load("model_scratch_svg.joblib")
         buffers = librosa.stream(audio_path, block_length = 88200, frame_length = 1, hop_length = 1)
         val = []
@@ -46,6 +47,9 @@ def scrath_detection(audio_path, kind = "deep"):
                 val.append([i])
         varray = np.array(val)
         varray.reshape(-1, 1)
-        model_linear.predict(varray)
+        predictions = model_linear.predict(varray)
+        result = any(bool(predictions))
+    return result
+        
 
 
