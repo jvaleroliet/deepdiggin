@@ -47,5 +47,5 @@ print(scratch_test)
 
 ## Under Construction
 
-The package is under construction. Feel free to collaborate. 🎵
+The package is under construction. Feel free to collaborate! 🎵
 
